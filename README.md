@@ -46,7 +46,6 @@ cd tic-tac-toe
 
 Your initial project structure will look something like this:
 
-``
 tic-tac-toe/
 ├── node_modules/
 ├── public/
@@ -58,7 +57,6 @@ tic-tac-toe/
 │   ├── index.js
 │   └── ...
 └── package.json
-``
 
 - `node_modules/`: Libraries and utilities.
 - `public/`: Static files like HTML and images.
