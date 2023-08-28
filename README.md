@@ -70,7 +70,7 @@ Create a new folder called `components` inside the `src` folder. Inside `compone
 
 #### Board.js
 
-``jsx
+``
 // Importing required modules
 import React from 'react';
 import Square from './Square';  // We'll create this component next
@@ -101,7 +101,7 @@ Create another file inside the `components` folder and name it `Square.js`.
 
 #### Square.js
 
-``jsx
+``
 // Importing required modules
 import React from 'react';
 
@@ -121,7 +121,7 @@ Your `App.js` will serve as the container for these components.
 
 #### App.js
 
-``jsx
+``
 // Importing required modules and components
 import React, { useState } from 'react';
 import './App.css';
