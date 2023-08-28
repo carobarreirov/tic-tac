@@ -32,15 +32,15 @@ We are building a simple Tic-Tac-Toe game that allows two players to take turns 
 
 First, we need to create a new React app. Open your terminal and run:
 
-\`\`\`
+``
 npx create-react-app tic-tac-toe
-\`\`\`
+``
 
 This command sets up a new React project with a good default configuration. Navigate into your project's folder:
 
-\`\`\`
+``
 cd tic-tac-toe
-\`\`\`
+``
 
 ## Folder Structure 📂
 
