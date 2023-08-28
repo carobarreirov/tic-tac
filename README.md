@@ -46,7 +46,7 @@ cd tic-tac-toe
 
 Your initial project structure will look something like this:
 
-\`\`\`
+``
 tic-tac-toe/
 ├── node_modules/
 ├── public/
@@ -58,7 +58,7 @@ tic-tac-toe/
 │   ├── index.js
 │   └── ...
 └── package.json
-\`\`\`
+``
 
 - `node_modules/`: Libraries and utilities.
 - `public/`: Static files like HTML and images.
@@ -72,7 +72,7 @@ Create a new folder called `components` inside the `src` folder. Inside `compone
 
 #### Board.js
 
-\`\`\`jsx
+``jsx
 // Importing required modules
 import React from 'react';
 import Square from './Square';  // We'll create this component next
@@ -95,7 +95,7 @@ const Board = ({ squares, onClick }) => {
 };
 
 export default Board;
-\`\`\`
+``
 
 ### Square Component
 
@@ -103,7 +103,7 @@ Create another file inside the `components` folder and name it `Square.js`.
 
 #### Square.js
 
-\`\`\`jsx
+``jsx
 // Importing required modules
 import React from 'react';
 
@@ -115,7 +115,7 @@ const Square = ({ value, onClick }) => (
 );
 
 export default Square;
-\`\`\`
+``
 
 ### App Component
 
@@ -123,7 +123,7 @@ Your `App.js` will serve as the container for these components.
 
 #### App.js
 
-\`\`\`jsx
+``jsx
 // Importing required modules and components
 import React, { useState } from 'react';
 import './App.css';
@@ -141,7 +141,7 @@ const App = () => {
 };
 
 export default App;
-\`\`\`
+``
 
 ## React Theory 🎓
 
